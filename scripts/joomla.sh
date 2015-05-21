@@ -71,7 +71,7 @@ _EOF_
 
 mkdir -p /root/.juju/ssh/
 cp /root/.ssh/juju /root/.juju/ssh/juju_id_rsa
-cp /root/.ssh/juju.pub /root/.juju/ssh/juju_id_rsa.pub 
+cp /root/.ssh/juju.pub /root/.juju/ssh/juju_id_rsa.pub
 
 juju bootstrap --debug
 
